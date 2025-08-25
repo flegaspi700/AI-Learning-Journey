@@ -4,7 +4,7 @@ This folder contains files and resources for data analysis and exploratory data 
 
 Use this space to store scripts, notebooks, and datasets related to analyzing and understanding your data.
 
-## Example Table
+## Exploratory Data Analysis Table
 
 | Title    | Dataset Name | Notes     |
 |----------|--------------|-----------|
