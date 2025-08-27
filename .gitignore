@@ -209,3 +209,5 @@ __marimo__/
 #folders
 002_Voice_Assistant/
 
+#install google gemine cli tool----  npm install -g @anthropic-ai/claude-code
+#install claude code cli tool --- npm install -g @anthropic-ai/claude-code
