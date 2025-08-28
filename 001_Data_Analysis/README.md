@@ -35,7 +35,10 @@ pip install pandas matplotlib seaborn
 ## Key Findings
 
 ### Roller Coaster Analysis
-*TODO: Add a brief summary of the key findings from your analysis here.*
+- The number of new roller coasters introduced peaked in the late 1990s and early 2000s.
+- There is a strong positive correlation between a roller coaster's height and its speed.
+- Vekoma and Bolliger & Mabillard are among the most prolific roller coaster manufacturers.
+- Cedar Point and Six Flags parks are home to some of the fastest roller coasters.
 
 ### Netflix Movie Analysis
 From the Netflix movie analysis, we found that a large number of movies from the 1990s have a duration of about 100 minutes. The analysis also identified the top directors, genres, and countries with the most content on the platform.
