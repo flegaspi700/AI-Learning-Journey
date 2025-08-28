@@ -3,14 +3,18 @@ A curated portfolio showcasing my journey in artificial intelligence and machine
 
 ## Projects
 
-### [001_Data_Analysis: Roller Coaster EDA](./001_Data_Analysis/)
+### [001_Data_Analysis: Roller Coaster & Netflix EDA](./001_Data_Analysis/)
 
-An exploratory data analysis (EDA) of a roller coaster dataset. This project involves data cleaning, preparation, and visualization to uncover insights about roller coasters.
+An exploratory data analysis (EDA) of a roller coaster dataset and a Netflix dataset. This project involves data cleaning, preparation, and visualization to uncover insights about roller coasters and movies on Netflix.
 
-**Key Findings:**
+**Key Findings (Roller Coasters):**
 - The number of new roller coasters introduced peaked in the late 1990s and early 2000s.
 - There is a strong positive correlation between a roller coaster's height and its speed.
 - Vekoma and Bolliger & Mabillard are among the most prolific roller coaster manufacturers.
 - Cedar Point and Six Flags parks are home to some of the fastest roller coasters.
+
+**Key Findings (Netflix Movies):**
+- A large number of movies from the 1990s have a duration of about 100 minutes.
+- The analysis also identified the top directors, genres, and countries with the most content on the platform.
 
 **Technologies Used:** Python, Pandas, Matplotlib, Seaborn
