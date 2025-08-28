@@ -18,3 +18,14 @@ An exploratory data analysis (EDA) of a roller coaster dataset and a Netflix dat
 - The analysis also identified the top directors, genres, and countries with the most content on the platform.
 
 **Technologies Used:** Python, Pandas, Matplotlib, Seaborn
+
+### [002_Voice_Assistant: Python Voice Assistant](./002_Voice_Assistant/) (In Progress)
+
+A simple voice-controlled assistant built in Python. It can recognize voice commands to perform basic tasks like telling the time, opening applications, and searching the web.
+
+**Key Features:**
+- Voice-to-text transcription using the SpeechRecognition library.
+- Text-to-speech feedback.
+- Command execution for basic tasks (e.g., telling time, searching Google).
+
+**Technologies Used:** Python, SpeechRecognition, pyttsx3, PyAudio
