@@ -24,7 +24,7 @@ An exploratory data analysis (EDA) of three datasets: roller coasters, Netflix m
 
 **Technologies Used:** Python, Pandas, Matplotlib, Seaborn, fredapi, Plotly
 
-### [002_Voice_Assistant: Python Voice Assistant](./002_Voice_Assistant/) (In Progress)
+### [002_NLP: Natural Language Processing](./002_NLP/) (In Progress)
 
 A simple voice-controlled assistant built in Python. It can recognize voice commands to perform basic tasks like telling the time, opening applications, and searching the web.
 
