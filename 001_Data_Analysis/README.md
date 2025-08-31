@@ -8,6 +8,7 @@ Use this space to store scripts, notebooks, and datasets related to analyzing an
 
 - `EDA_Roller_Coaster.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of the roller coaster dataset.
 - `EDA_Netflix_Movies.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of the Netflix dataset.
+- `EDA_FRED_Economic_Data.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of FRED economic data.
 - `Data/coaster_db.csv`: The dataset used for the roller coaster analysis.
 - `Data/netflix_data.csv`: The dataset used for the Netflix analysis.
 
@@ -17,6 +18,7 @@ Use this space to store scripts, notebooks, and datasets related to analyzing an
 |-------------------------------------------|----------------------------|------------------------------------------------------------------------|
 | [Roller Coaster](./EDA_Roller_Coaster.ipynb) | [coaster_db](./Data/coaster_db.csv) | An exploratory data analysis of a roller coaster dataset. |
 | [Netflix Movies](./EDA_Netflix_Movies.ipynb) | [netflix_data](./Data/netflix_data.csv) | An exploratory data analysis of Netflix movies, focusing on the 1990s and overall library characteristics. |
+| [FRED Economic Data](./EDA_FRED_Economic_Data.ipynb) | FRED API | An exploratory data analysis of economic data from the Federal Reserve. |
 
 ## Dependencies
 
@@ -25,11 +27,13 @@ The analysis in this folder requires the following Python libraries:
 - pandas
 - matplotlib
 - seaborn
+- fredapi
+- plotly
 
 You can install these dependencies using pip:
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install pandas matplotlib seaborn fredapi plotly
 ```
 
 ## Key Findings
@@ -43,3 +47,9 @@ pip install pandas matplotlib seaborn
 ### Netflix Movie Analysis
 - From the Netflix movie analysis, we found that a large number of movies from the 1990s have a duration of about 100 minutes. 
 - The analysis also identified the top directors, genres, and countries with the most content on the platform.
+
+### FRED Economic Data Analysis
+- The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
+- The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
+- State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
+
