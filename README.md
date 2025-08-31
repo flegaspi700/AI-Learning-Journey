@@ -3,9 +3,9 @@ A curated portfolio showcasing my journey in artificial intelligence and machine
 
 ## Projects
 
-### [001_Data_Analysis: Roller Coaster & Netflix EDA](./001_Data_Analysis/)
+### [001_Data_Analysis: Roller Coaster, Netflix & FRED EDA](./001_Data_Analysis/)
 
-An exploratory data analysis (EDA) of a roller coaster dataset and a Netflix dataset. This project involves data cleaning, preparation, and visualization to uncover insights about roller coasters and movies on Netflix.
+An exploratory data analysis (EDA) of three datasets: roller coasters, Netflix movies, and FRED economic data. This project involves data cleaning, preparation, and visualization to uncover insights.
 
 **Key Findings (Roller Coasters):**
 - The number of new roller coasters introduced peaked in the late 1990s and early 2000s.
@@ -17,7 +17,12 @@ An exploratory data analysis (EDA) of a roller coaster dataset and a Netflix dat
 - A large number of movies from the 1990s have a duration of about 100 minutes.
 - The analysis also identified the top directors, genres, and countries with the most content on the platform.
 
-**Technologies Used:** Python, Pandas, Matplotlib, Seaborn
+**Key Findings (FRED Economic Data):**
+- The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
+- The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
+- State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
+
+**Technologies Used:** Python, Pandas, Matplotlib, Seaborn, fredapi, Plotly
 
 ### [002_Voice_Assistant: Python Voice Assistant](./002_Voice_Assistant/) (In Progress)
 
