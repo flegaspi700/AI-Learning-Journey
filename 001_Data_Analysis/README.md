@@ -9,6 +9,7 @@ Use this space to store scripts, notebooks, and datasets related to analyzing an
 - `EDA_Roller_Coaster.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of the roller coaster dataset.
 - `EDA_Netflix_Movies.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of the Netflix dataset.
 - `EDA_FRED_Economic_Data.ipynb`: A Jupyter Notebook that contains an exploratory data analysis of FRED economic data.
+- `fred_data_suggestions.txt`: A text file containing ideas for additional economic indicators to analyze from the FRED database.
 - `Data/coaster_db.csv`: The dataset used for the roller coaster analysis.
 - `Data/netflix_data.csv`: The dataset used for the Netflix analysis.
 
@@ -52,4 +53,3 @@ pip install pandas matplotlib seaborn fredapi plotly
 - The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
 - The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
 - State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
-
