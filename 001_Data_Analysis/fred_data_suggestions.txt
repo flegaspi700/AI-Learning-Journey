@@ -1,0 +1,33 @@
+Here are several interesting data points you could analyze from the FRED database, along with their FRED series IDs and some ideas for analysis:
+
+### 1. Inflation and Prices
+- **Consumer Price Index (CPI)**
+    - **Series ID:** `CPIAUCSL`
+    - **What it is:** A primary measure of inflation, tracking the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services.
+    - **Analysis Idea:** Retrieve this series and calculate the year-over-year percentage change to derive the inflation rate. You could then plot this alongside the `UNRATE` (Unemployment Rate) to explore the Phillips Curve concept, which suggests an inverse relationship between inflation and unemployment.
+
+### 2. Interest Rates
+- **Federal Funds Effective Rate**
+    - **Series ID:** `FEDFUNDS`
+    - **What it is:** The interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. It's the central interest rate in the U.S. financial market.
+    - **Analysis Idea:** Plot the `FEDFUNDS` rate over time. You can overlay shaded regions for U.S. recessions (Series ID: `USREC`) to see how the Federal Reserve typically lowers rates during economic downturns.
+
+### 3. Economic Output
+- **Real Gross Domestic Product (GDP)**
+    - **Series ID:** `GDPC1`
+    - **What it is:** The total value of all goods and services produced in the U.S., adjusted for inflation. It's the most comprehensive measure of U.S. economic activity.
+    - **Analysis Idea:** Plot the quarterly, seasonally-adjusted data to visualize the long-term growth of the U.S. economy and identify periods of recession (negative growth).
+
+### 4. Housing Market
+- **30-Year Fixed Rate Mortgage Average**
+    - **Series ID:** `MORTGAGE30US`
+    - **What it is:** The average interest rate for a 30-year fixed-rate mortgage in the United States.
+    - **Analysis Idea:** Compare the trend of mortgage rates to the S&P/Case-Shiller U.S. National Home Price Index (Series ID: `CSUSHPINSA`) to see if there's a correlation between borrowing costs and home prices.
+
+### 5. Consumer Behavior
+- **University of Michigan: Consumer Sentiment**
+    - **Series ID:** `UMCSENT`
+    - **What it is:** A widely followed survey of consumer confidence in their personal finances and the U.S. economy.
+    - **Analysis Idea:** Plot this index against Retail Sales data (Series ID: `RRSFS`). A decline in consumer sentiment often precedes a slowdown in consumer spending, which you could visualize.
+
+To get started with any of these, you can use the `fred.get_series()` function with the appropriate Series ID, just as you did for the S&P 500 and unemployment rate.
