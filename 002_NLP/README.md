@@ -1,48 +1,41 @@
-# Python Voice Assistant
+# NLP Projects
 
-This project is a simple voice-controlled assistant built in Python. It can recognize voice commands to perform basic tasks like telling the time, opening applications, and searching the web.
+This directory contains various Natural Language Processing (NLP) projects.
 
-## Features
+## File Descriptions
 
-- **Voice-to-Text:** Transcribes spoken commands into text.
-- **Command Execution:** Executes commands based on the transcribed text.
-- **Text-to-Speech:** Provides voice feedback to the user.
+- `Chatbot.py`: A Python script for a simple rule-based chatbot.
+- `voice_assistant.py`: A Python script for a voice-controlled assistant.
+- `improvement_suggestions.txt`: A text file containing ideas for improving the voice assistant and chatbot.
+- `requirements.txt`: A text file listing the Python dependencies for the voice assistant and chatbot.
+- `Sentiment_Analysis_IMDb/sentiment_analysis_IMDb.ipynb`: A Jupyter Notebook that demonstrates sentiment analysis on the IMDb movie review dataset using TensorFlow and Keras. It covers data loading, preprocessing, model building (embedding, pooling, dense layers), training, evaluation, and prediction.
 
-## Setup and Installation
+## NLP Projects Table
 
-1.  **Clone the repository or download the files.**
+| Title | Dataset Name | Notes |
+|---|---|---|
+| [IMDb Sentiment Analysis with TensorFlow](./Sentiment_Analysis_IMDb/sentiment_analysis_IMDb.ipynb) | IMDb Movie Reviews | Building and training a deep learning model to classify movie reviews as positive or negative. |
 
-2.  **Navigate to the project directory:**
-    ```bash
-    cd 002_Voice_Assistant
-    ```
+## Dependencies
 
-3.  **Install the required libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    > **Note:** `PyAudio` can sometimes be tricky to install. If you run into issues, you may need to install it manually. Please see the comments at the top of `voice_assistant.py` for platform-specific advice.
+The projects in this folder may require the following Python libraries:
 
-## How to Run
+- tensorflow
+- numpy
+- pandas
+- matplotlib
+- seaborn
 
-Execute the main script from your terminal:
+You can install these dependencies using pip:
+
 ```bash
-python voice_assistant.py
+pip install tensorflow numpy pandas matplotlib seaborn
 ```
 
-The assistant will activate. Say the wake word **"computer"** and then give one of the commands below.
+## Key Findings
 
-## Current Commands
-
-- **"hello"**: The assistant will greet you.
-- **"what time is it"**: The assistant will tell you the current time.
-- **"open calculator"**: Launches the Windows calculator.
-- **"search for [your query]"**: Opens Google with your search query.
-- **"exit" / "quit"**: Terminates the assistant.
-
-## Future Enhancements
-
-- [ ] Add more application-launching commands.
-- [ ] Integrate with a weather API.
-- [ ] Add the ability to tell jokes or fun facts.
-- [ ] Improve error handling and user feedback.
+### IMDb Sentiment Analysis
+- The sentiment analysis model achieved an accuracy of approximately 85.3% on the test dataset.
+- The notebook demonstrates effective text preprocessing techniques, including HTML tag removal and punctuation stripping.
+- It showcases the application of TensorFlow's `TextVectorization` layer for preparing text data for neural networks.
+- A simple sequential deep learning model with embedding, global average pooling, and dense layers is effective for binary sentiment classification.
