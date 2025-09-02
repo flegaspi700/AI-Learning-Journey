@@ -209,6 +209,8 @@ __marimo__/
 #folders
 #002_NLP/
 #Notes/
+002_NLP/Sentiment_Analysis_IMDB/aclImdb_v1/
+002_NLP/Sentiment_Analysis_IMDB/aclImdb_v1_archiv*
 
 #install google gemine cli tool----  npm install -g @anthropic-ai/claude-code
 #install claude code cli tool --- npm install -g @anthropic-ai/claude-codeclaude-code
