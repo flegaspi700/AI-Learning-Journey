@@ -1,9 +1,10 @@
 # AI-Learning-Journey
 A curated portfolio showcasing my journey in artificial intelligence and machine learning. This repository contains a collection of projects demonstrating my skills in areas like natural language processing, computer vision, and data analysis.
 
-## Recent Activities (as of 2025-09-01)
+## Recent Activities (as of 2025-09-02)
 - Completed and debugged exercises in the NLP Auto-Complete assignment (`000_Assignments`).
 - Enhanced the Exploratory Data Analysis of FRED economic data, adding more descriptive text and exploring new data points like CPI for inflation (`001_Data_Analysis`).
+- Updated the `002_NLP` project documentation to include details on the IMDb Sentiment Analysis with TensorFlow notebook and restructured the README to focus on NLP projects.
 - Added and updated documentation across the project.
 
 ## Projects
