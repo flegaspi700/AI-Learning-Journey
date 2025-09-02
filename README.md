@@ -30,16 +30,15 @@ An exploratory data analysis (EDA) of three datasets: roller coasters, Netflix m
 
 **Technologies Used:** Python, Pandas, Matplotlib, Seaborn, fredapi, Plotly
 
-### [002_NLP: Natural Language Processing](./002_NLP/) (In Progress)
+### [002_NLP: Natural Language Processing Projects](./002_NLP/) (In Progress)
 
-A simple voice-controlled assistant built in Python. It can recognize voice commands to perform basic tasks like telling the time, opening applications, and searching the web.
+This folder contains various Natural Language Processing (NLP) projects, including a voice assistant and a sentiment analysis model.
 
-**Key Features:**
-- Voice-to-text transcription using the SpeechRecognition library.
-- Text-to-speech feedback.
-- Command execution for basic tasks (e.g., telling time, searching Google).
+**Key Projects:**
+- **IMDb Sentiment Analysis with TensorFlow:** A Jupyter Notebook demonstrating sentiment analysis on movie reviews, covering data preprocessing, model building, training, and evaluation.
+- **Python Voice Assistant:** A simple voice-controlled assistant capable of recognizing voice commands and performing basic tasks.
 
-**Technologies Used:** Python, SpeechRecognition, pyttsx3, PyAudio
+**Technologies Used:** Python, TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn, SpeechRecognition, pyttsx3, PyAudio
 
 ## Getting Started
 
