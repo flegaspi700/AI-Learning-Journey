@@ -1,13 +1,23 @@
 # AI-Learning-Journey
 A curated portfolio showcasing my journey in artificial intelligence and machine learning. This repository contains a collection of projects demonstrating my skills in areas like natural language processing, computer vision, and data analysis.
 
-## Recent Activities (as of 2025-09-02)
-- Completed and debugged exercises in the NLP Auto-Complete assignment (`000_Assignments`).
-- Enhanced the Exploratory Data Analysis of FRED economic data, adding more descriptive text and exploring new data points like CPI for inflation (`001_Data_Analysis`).
-- Updated the `002_NLP` project documentation to include details on the IMDb Sentiment Analysis with TensorFlow notebook and restructured the README to focus on NLP projects.
-- Added and updated documentation across the project.
+## Recent Activities (as of 2025-09-03)
+- **Initiated the `006_Tuberculosis_Detection` project.**
+- Built a complete, end-to-end image classification pipeline from scratch, including data preprocessing, augmentation, model building (CNN), training, and a comprehensive evaluation (Accuracy, Confusion Matrix, Classification Report, ROC/AUC).
+- Established a baseline model performance (AUC: 0.52), which highlights the challenges of working with small datasets and provides a clear motivation for using Transfer Learning next.
 
 ## Projects
+
+### [006_Tuberculosis_Detection: Computer Vision for Medical Imaging](./006_Tuberculosis_Detection/) (In Progress)
+
+This project focuses on building a deep learning model to detect signs of tuberculosis in chest X-ray images. It serves as a practical application of computer vision for a real-world medical problem.
+
+**Key Activities:**
+- **Baseline Model:** A Convolutional Neural Network (CNN) was built from scratch to establish a performance baseline.
+- **Data Preprocessing:** Implemented a robust data pipeline using `ImageDataGenerator` for normalization and data augmentation.
+- **Comprehensive Evaluation:** Analyzed model performance not just with accuracy, but with professional diagnostic metrics like Sensitivity, Specificity, PPV, NPV, and the ROC/AUC score.
+
+**Technologies Used:** Python, TensorFlow, Keras, NumPy, Matplotlib, Scikit-learn
 
 ### [000_Assignments: NLP Auto-Complete](./000_Assignments/)
 
@@ -24,7 +34,7 @@ This project involves building a prototype of an auto-complete system using N-gr
 
 An exploratory data analysis (EDA) of three datasets: roller coasters, Netflix movies, and FRED economic data. This project involves data cleaning, preparation, and visualization to uncover insights.
 
-**Key Findings (FRED Economic Data):**
+**Key Findings (FRED Economic Data):
 - The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
 - The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
 - State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
