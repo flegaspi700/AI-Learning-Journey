@@ -212,6 +212,7 @@ __marimo__/
 002_NLP/Sentiment_Analysis_IMDB/aclImdb_v1/
 002_NLP/Sentiment_Analysis_IMDB/aclImdb_v1_archiv*
 006_Tuberculosis_Detection/data/
+006_Tuberculosis_Detection/old/
 
 #install google gemine cli tool----  npm install -g @anthropic-ai/claude-code
 #install claude code cli tool --- npm install -g @anthropic-ai/claude-codeclaude-code

@@ -1,10 +1,10 @@
 # AI-Learning-Journey
 A curated portfolio showcasing my journey in artificial intelligence and machine learning. This repository contains a collection of projects demonstrating my skills in areas like natural language processing, computer vision, and data analysis.
 
-## Recent Activities (as of 2025-09-03)
-- **Initiated the `006_Tuberculosis_Detection` project.**
-- Built a complete, end-to-end image classification pipeline from scratch, including data preprocessing, augmentation, model building (CNN), training, and a comprehensive evaluation (Accuracy, Confusion Matrix, Classification Report, ROC/AUC).
-- Established a baseline model performance (AUC: 0.52), which highlights the challenges of working with small datasets and provides a clear motivation for using Transfer Learning next.
+## Recent Activities (as of 2025-09-04)
+- **Conducted a comparative analysis of multiple models for the `006_Tuberculosis_Detection` project**, including a custom CNN, Transfer Learning (`MobileNetV2`, `ResNet50`), and Fine-Tuning.
+- **Centralized all experiments** into a single, well-structured notebook for reproducibility and clear comparison.
+- **Analyzed model shortcomings** and formulated a strategic plan for the next iteration, focusing on `EfficientNet` and advanced training callbacks.
 
 ## Projects
 
@@ -14,6 +14,7 @@ This project focuses on building a deep learning model to detect signs of tuberc
 
 **Key Activities:**
 - **Baseline Model:** A Convolutional Neural Network (CNN) was built from scratch to establish a performance baseline.
+- **Comparative Modeling:** Systematically tested and evaluated multiple architectures (Custom CNN, MobileNetV2, ResNet50) and techniques (Transfer Learning, Fine-Tuning) to diagnose performance issues.
 - **Data Preprocessing:** Implemented a robust data pipeline using `ImageDataGenerator` for normalization and data augmentation.
 - **Comprehensive Evaluation:** Analyzed model performance not just with accuracy, but with professional diagnostic metrics like Sensitivity, Specificity, PPV, NPV, and the ROC/AUC score.
 
