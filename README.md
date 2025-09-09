@@ -8,6 +8,18 @@ A curated portfolio showcasing my journey in artificial intelligence and machine
 
 ## Projects
 
+### [003_llms: LLM Fine-Tuning with LoRA](./003_llms/)
+
+This project demonstrates the process of fine-tuning a Llama 2 language model using Parameter-Efficient Fine-Tuning (PEFT), specifically with Low-Rank Adaptation (LoRA). It includes scripts for fine-tuning, evaluation, and comparison, along with a detailed guide on the methodology.
+
+**Key Activities:**
+- Fine-tuning a `meta-llama/Llama-2-7b-hf` model on a custom JSON dataset.
+- Utilizing LoRA for efficient training by adding adapter layers instead of training the full model.
+- Scripts to evaluate the fine-tuned model's performance and compare its outputs against the base model.
+- A comprehensive guide (`llm_finetuning_guide.md`) explaining the concepts from data preparation to model inference.
+
+**Technologies Used:** Python, PyTorch, Hugging Face (`transformers`, `peft`, `trl`, `datasets`)
+
 ### [006_Tuberculosis_Detection: Computer Vision for Medical Imaging](./006_Tuberculosis_Detection/) (In Progress)
 
 This project focuses on building a deep learning model to detect signs of tuberculosis in chest X-ray images. It serves as a practical application of computer vision for a real-world medical problem.

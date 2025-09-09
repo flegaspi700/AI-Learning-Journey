@@ -1,0 +1,3 @@
+{"prompt": "I love this movie!", "completion": "positive"}
+{"prompt": "I hate this movie!", "completion": "negative"}
+{"prompt": "The movie was okay.", "completion": "neutral"}
