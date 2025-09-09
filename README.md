@@ -1,10 +1,10 @@
 # AI-Learning-Journey
 A curated portfolio showcasing my journey in artificial intelligence and machine learning. This repository contains a collection of projects demonstrating my skills in areas like natural language processing, computer vision, and data analysis.
 
-## Recent Activities (as of 2025-09-04)
-- **Conducted a comparative analysis of multiple models for the `006_Tuberculosis_Detection` project**, including a custom CNN, Transfer Learning (`MobileNetV2`, `ResNet50`), and Fine-Tuning.
-- **Centralized all experiments** into a single, well-structured notebook for reproducibility and clear comparison.
-- **Analyzed model shortcomings** and formulated a strategic plan for the next iteration, focusing on `EfficientNet` and advanced training callbacks.
+## Recent Activities (as of 2025-09-09)
+- **Added the `003_llms` project**, demonstrating how to fine-tune a Llama 2 model using Parameter-Efficient Fine-Tuning (PEFT) with LoRA.
+- **Developed scripts for training, evaluation, and comparison** of the fine-tuned model against its base version.
+- **Authored a comprehensive guide** (`llm_finetuning_guide.md`) on the step-by-step process of fine-tuning LLMs.
 
 ## Projects
 
