@@ -1,7 +1,9 @@
 # AI-Learning-Journey
 A curated portfolio showcasing my journey in artificial intelligence and machine learning. This repository contains a collection of projects demonstrating my skills in areas like natural language processing, computer vision, and data analysis.
 
-## Recent Activities (as of 2025-09-09)
+## Recent Activities (as of 2025-09-15)
+- **Added SQL Student Mental Health Analysis**, demonstrating comprehensive data analysis using PostgreSQL to examine international students' mental health indicators. Based on DataCamp dataset.
+- **Implemented advanced SQL queries** analyzing relationships between language proficiency, length of stay, and mental health outcomes.
 - **Added the `003_llms` project**, demonstrating how to fine-tune a Llama 2 model using Parameter-Efficient Fine-Tuning (PEFT) with LoRA.
 - **Developed scripts for training, evaluation, and comparison** of the fine-tuned model against its base version.
 - **Authored a comprehensive guide** (`llm_finetuning_guide.md`) on the step-by-step process of fine-tuning LLMs.
@@ -53,13 +55,13 @@ An exploratory data analysis (EDA) of four datasets: roller coasters, Netflix mo
 - **Netflix Movie Analysis:** Exploration of Netflix content library characteristics.
 - **Roller Coaster Analysis:** Statistical analysis of roller coaster features and trends.
 
-**Key Findings (Student Mental Health):
+**Key Findings (Student Mental Health):**
 - Language proficiency significantly impacts depression levels among international students.
 - Length of stay shows varying correlations with different mental health metrics.
 - Academic level and age groups display distinct mental health patterns.
 - International students face unique challenges compared to domestic students.
 
-**Key Findings (FRED Economic Data):
+**Key Findings (FRED Economic Data):**
 - The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
 - The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
 - State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
