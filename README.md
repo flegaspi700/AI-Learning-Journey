@@ -43,16 +43,28 @@ This project involves building a prototype of an auto-complete system using N-gr
 
 **Technologies Used:** Python, NLTK, Pandas, NumPy
 
-### [001_Data_Analysis: Roller Coaster, Netflix & FRED EDA](./001_Data_Analysis/)
+### [001_Data_Analysis: Roller Coaster, Netflix, FRED & Student Mental Health EDA](./001_Data_Analysis/)
 
-An exploratory data analysis (EDA) of three datasets: roller coasters, Netflix movies, and FRED economic data. This project involves data cleaning, preparation, and visualization to uncover insights.
+An exploratory data analysis (EDA) of four datasets: roller coasters, Netflix movies, FRED economic data, and student mental health data. This project involves data cleaning, preparation, visualization, and SQL analysis to uncover insights.
+
+**Key Projects:**
+- **Student Mental Health Analysis (SQL):** A comprehensive analysis using PostgreSQL to examine the relationship between international students' length of stay and mental health indicators (depression, social connectedness, acculturative stress). Based on DataCamp dataset.
+- **FRED Economic Data Analysis:** Analysis of economic indicators from the Federal Reserve database.
+- **Netflix Movie Analysis:** Exploration of Netflix content library characteristics.
+- **Roller Coaster Analysis:** Statistical analysis of roller coaster features and trends.
+
+**Key Findings (Student Mental Health):
+- Language proficiency significantly impacts depression levels among international students.
+- Length of stay shows varying correlations with different mental health metrics.
+- Academic level and age groups display distinct mental health patterns.
+- International students face unique challenges compared to domestic students.
 
 **Key Findings (FRED Economic Data):
 - The S&P 500 index shows significant growth over time, with notable fluctuations during economic events.
 - The national unemployment rate exhibits cyclical patterns, with sharp increases during recessions.
 - State-level unemployment data reveals regional disparities in economic performance, particularly during the COVID-19 pandemic.
 
-**Technologies Used:** Python, Pandas, Matplotlib, Seaborn, fredapi, Plotly
+**Technologies Used:** Python, Pandas, Matplotlib, Seaborn, fredapi, Plotly, PostgreSQL, SQLAlchemy
 
 ### [002_NLP: Natural Language Processing Projects](./002_NLP/) (In Progress)
 
