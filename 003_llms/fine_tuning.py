@@ -1,4 +1,6 @@
 # Import necessary libraries
+import os
+from dotenv import load_dotenv
 # torch is a popular deep learning framework.
 import torch
 # load_dataset is used to easily load datasets from various sources.
@@ -11,15 +13,18 @@ from peft import LoraConfig, get_peft_model
 # SFTTrainer is a specialized trainer for supervised fine-tuning from the TRL (Transformer Reinforcement Learning) library.
 from trl import SFTTrainer
 
+# Load environment variables from .env file
+load_dotenv()
+
 # --- 1. Load the Dataset ---
 # We're loading a dataset from a JSON file.
 # 'data_files' points to the location of our training data.
 # 'split="train"' specifies that we are loading the training part of the dataset.
-dataset = load_dataset("json", data_files="D:\\Learn\\AI-Learning\\AI-Learning-Journey\\003_llms\\data\\dataset.json", split="train")
+dataset = load_dataset("json", data_files="data/dataset.json", split="train")
 
 # --- 2. Load the Model and Tokenizer ---
 # We specify the pre-trained model we want to use. "meta-llama/Llama-2-7b-hf" is a 7-billion parameter Llama 2 model.
-model_id = "meta-llama/Llama-2-7b-hf"
+model_id = os.getenv("Llama_path").strip('\"')  # Ensure no extra quotes are included
 # The tokenizer is responsible for converting text into a format the model can understand (tokens).
 # We load the tokenizer that corresponds to our chosen model.
 tokenizer = AutoTokenizer.from_pretrained(model_id)
